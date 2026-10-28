@@ -1,0 +1,44 @@
+# Starship configuration for Sam
+
+
+# Timeout for starship to scan files/git status (in milliseconds)
+scan_timeout = 1000
+
+# Increases command execution limit for compiler/tool checks (default: 500ms)
+command_timeout = 2000
+
+[character]
+success_symbol = "[❯](bold #00ff00 )"
+error_symbol = "[❯](bold #00ff00)"
+
+[directory]
+style = "bold #00ff00"
+truncation_length = 3
+truncate_to_repo = true
+
+[username]
+disabled = true
+
+[hostname]
+disabled = true
+
+[line_break]
+disabled = true
+
+[python]
+disabled = true
+
+[nodejs]
+disabled = true
+
+[golang]
+disabled = true
+
+[buf]
+disabled = true
+
+[perl]
+disabled = true
+
+[package]
+disabled = true
